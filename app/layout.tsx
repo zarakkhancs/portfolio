@@ -11,10 +11,11 @@ export const metadata: Metadata = {
     canonical: '/'
   },
   title: {
-    default: 'John Smith',
-    template: '%s | John Smith'
+    default: 'Zarak Khan',
+    template: '%s | Zarak Khan'
   },
-  description: 'My portfolio, blog, and personal website.'
+  description:
+    'Computer Science student at York University building software and gaining industry experience at Bruce Power.'
 };
 
 export default function RootLayout({
@@ -24,42 +25,72 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.className}`}>
-      <body className="antialiased tracking-tight">
-        <div className="min-h-screen flex flex-col justify-between pt-0 md:pt-8 p-8 dark:bg-zinc-950 bg-white text-gray-900 dark:text-zinc-200">
-          <main className="max-w-[60ch] mx-auto w-full space-y-6">
-            {children}
-          </main>
-          <Footer />
-          <Analytics />
-        </div>
+      <body>
+        <header
+          className="site-header"
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            zIndex: 50,
+            padding: '1.25rem 2rem',
+            display: 'flex',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            background: 'rgba(0, 0, 0, 0.35)',
+            backdropFilter: 'blur(12px)',
+            color: 'white'
+          }}
+        >
+          <a
+            href="/"
+            style={{
+              fontWeight: 600,
+              textDecoration: 'none'
+            }}
+          >
+            Zarak Khan
+          </a>
+
+          <nav className="site-nav" style={{ display: 'flex', gap: '1.5rem' }}>
+            <a href="#experience" style={{ color: 'white' }}>
+              Experience
+            </a>
+            <a href="#projects" style={{ color: 'white' }}>
+              Projects
+            </a>
+            <a href="#skills" style={{ color: 'white' }}>
+              Skills
+            </a>
+            <a href="#education" style={{ color: 'white' }}>
+              Education
+            </a>
+            <a href="#contact" style={{ color: 'white' }}>
+              Contact
+            </a>
+          </nav>
+        </header>
+
+        {children}
+        <Footer />
       </body>
     </html>
   );
 }
 
 function Footer() {
-  const links = [
-    { name: '@johnsmith', url: 'https://x.com/johnsmith' },
-    { name: 'youtube', url: 'https://www.youtube.com/@johnsmith' },
-    { name: 'linkedin', url: 'https://www.linkedin.com/in/johnsmith' },
-    { name: 'github', url: 'https://github.com/johnsmith' }
-  ];
-
   return (
-    <footer className="mt-12 text-center">
-      <div className="flex justify-center space-x-4 tracking-tight">
-        {links.map((link) => (
-          <a
-            key={link.name}
-            href={link.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 dark:text-gray-500 hover:text-blue-500 transition-colors duration-200"
-          >
-            {link.name}
-          </a>
-        ))}
-      </div>
+    <footer
+      style={{
+        padding: '2rem',
+        textAlign: 'center',
+        borderTop: '1px solid #e5e7eb',
+        color: '#6b7280',
+        fontSize: '0.9rem'
+      }}
+    >
+      © 2026 Zarak Khan · Computer Science @ York University
     </footer>
   );
 }

@@ -1,31 +1,614 @@
-# John Smith
+<div
+  style={{
+    position: 'relative',
+    width: '100%',
+    height: '600px',
+    marginBottom: '5rem',
+    borderRadius: '24px',
+    overflow: 'hidden'
+  }}
+>
+  <video
+    autoPlay
+    loop
+    muted
+    playsInline
+    src="/toronto.mp4"
+    style={{
+      position: 'fixed',
+      inset: 0,
+      width: '100%',
+      height: '100%',
+      objectFit: 'cover',
+      zIndex: -2
+    }}
+  />
+  <div
+    style={{
+      position: 'fixed',
+      inset: 0,
+      background: 'rgba(0, 0, 0, 0)',
+      zIndex: -1,
+      pointerEvents: 'none'
+    }}
+  />
 
-<br />
+  <div
+    style={{
+      position: 'absolute',
+      inset: 0,
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      textAlign: 'center',
+      padding: '2rem',
+      color: 'white'
+    }}
+  >
+    <h1
+      style={{
+        fontSize: 'clamp(3rem, 8vw, 6rem)',
+        margin: 0,
+        fontWeight: 700,
+        letterSpacing: '-0.04em'
+      }}
+    >
+      Zarak Khan
+    </h1>
 
-This is my portfolio, blog, and personal website.
+    <div
+    style={{
+        fontSize: 'clamp(1.25rem, 3vw, 2rem)',
+        margin: '1rem 0 0',
+        fontWeight: 500,
+        color: 'white'
+    }}
+    >
+    Computer Science @ York University
+    </div>
 
-## Examples
+    <div
+    style={{
+        maxWidth: '650px',
+        fontSize: '1.1rem',
+        lineHeight: 1.6,
+        margin: '1rem 0 0',
+        opacity: 0.9,
+        color: 'white'
+    }}
+    >
+    Engineering + Technology
+    </div>
 
-- [5 Tiny CLI Tricks You (Probably) Didn’t Know](/n/1)
-- [6 Sneaky JavaScript Patterns to Cut Boilerplate](/n/2)
-- [6 CSS Patterns to Cut Boilerplate](/n/3)
+    <div
+      style={{
+        marginTop: '2rem',
+        display: 'flex',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        gap: '0.5rem'
+      }}
+    >
+      <a
+        href="https://github.com/zarakkhancs"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          display: 'inline-block',
+          margin: '0 0.25rem',
+          color: 'white',
+          textDecoration: 'none',
+          padding: '0.85rem 1.5rem',
+          fontSize: '1rem',
+          fontWeight: 500,
+          fontSize: '1rem',
+          fontWeight: 500,
+          border: '1px solid rgba(255, 255, 255, 0.6)',
+          borderRadius: '999px',
+          background: 'rgba(0, 0, 0, 0.35)'
+        }}
+      >
+        GitHub ↗
+      </a>
 
-## Features
+      <a
+        href="https://www.linkedin.com/in/zarak-zk/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          display: 'inline-block',
+          margin: '0 0.25rem',
+          color: 'white',
+          textDecoration: 'none',
+          padding: '0.85rem 1.5rem',
+          fontSize: '1rem',
+          fontWeight: 500,
+          border: '1px solid rgba(255, 255, 255, 0.6)',
+          borderRadius: '999px',
+          background: 'rgba(0, 0, 0, 0.35)'
+        }}
+      >
+        LinkedIn ↗
+      </a>
+    </div>
+  </div>
+</div>
 
-- Syntax highlighting
-- Light/dark mode
-- Sitemap support
-- Fully customizable
-- Optional redirects
-- Write in Markdown / MDX
+<h2
+  id="experience"
+  style={{
+    margin: 0,
+    fontSize: 'clamp(2rem, 4vw, 3rem)',
+    fontWeight: 700,
+    color: 'white',
+    letterSpacing: '-0.02em'
+  }}
+>
+  Experience
+</h2>
 
-## Stack
+<div
+  className="experience-card"
+  style={{
+    padding: '2rem',
+    marginTop: '2rem',
+    marginBottom: '5rem',
+    border: '1px solid rgba(255, 255, 255, 0.25)',
+    borderRadius: '16px',
+    background: 'rgba(255, 255, 255, 0.12)',
+    backdropFilter: 'blur(14px)',
+    WebkitBackdropFilter: 'blur(14px)',
+    boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
+    color: 'white'
+  }}
+>
+>
+  <div
+    style={{
+      display: 'flex',
+      justifyContent: 'space-between',
+      alignItems: 'flex-start',
+      gap: '1.5rem',
+      flexWrap: 'wrap'
+    }}
+  >
+    <div>
+      <div
+        style={{
+          marginTop: '0 rem',
+          color: '#FFFFFF',
+          fontWeight: 500
+        }}
+      >
+        <strong>Bruce Power</strong>
+      </div>
 
-- Next.js / React
-- Tailwind CSS
-- TypeScript
-- Vercel
+      <div
+        style={{
+          marginTop: '0.4rem',
+          color: '#FFFFFF',
+          fontWeight: 500
+        }}
+      >
+        <strong>Development Student - Data Analyst</strong>
+      </div>
+    </div>
 
-## Code
+    <div
+      style={{
+        color: '#6b7280',
+        whiteSpace: 'normal',
+        overflowWrap: 'break-word'
+      }}
+    >
+      June 2026 – August 2026
+    </div>
+  </div>
 
-- [next-mdx-blog](https://github.com/leerob/next-mdx-blog)
+  <ul
+    style={{
+      marginTop: '1.5rem',
+      paddingLeft: '1.25rem',
+      lineHeight: 1.8
+    }}
+  >
+    <li>
+      -Led the modernization of the visual experience for the SABA Learning
+      Management System.
+    </li>
+
+    <li>
+      -Redesigned departmental training assets and coordinated stakeholder.
+      feedback
+    </li>
+
+    <li>
+      -Implemented updated assets in production.
+    </li>
+
+    <li>
+      -Developed responsive workspace prototypes.
+    </li>
+
+    <li>
+      -Collaborated with stakeholders to translate requirements into practical
+      interface improvements.
+    </li>
+  </ul>
+</div>
+
+<h2
+  id="projects"
+  style={{
+    margin: 0,
+    fontSize: 'clamp(2rem, 4vw, 3rem)',
+    fontWeight: 700,
+    color: 'white',
+    letterSpacing: '-0.02em'
+  }}
+>
+  Projects
+</h2>
+
+<div
+  className="project-card"
+  style={{
+    padding: '2rem',
+    marginTop: '2rem',
+    marginBottom: '1rem',
+    border: '1px solid rgba(255, 255, 255, 0.25)',
+    borderRadius: '16px',
+    background: 'rgba(255, 255, 255, 0.12)',
+    backdropFilter: 'blur(14px)',
+    WebkitBackdropFilter: 'blur(14px)',
+    boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
+    color: 'white'
+  }}
+>
+  <h3 style={{ marginTop: 0 }}>
+    <strong>Workout Progression & Overload Tracker</strong>
+  </h3>
+
+  <div>
+    A full-stack fitness tracking application that enables users to log
+    workouts, monitor performance history, and receive overload
+    recommendations.
+  </div>
+
+  <div
+    style={{
+      marginTop: '1.5rem',
+      fontSize: '0.9rem',
+      color: '#6b7280'
+    }}
+  >
+    React · Flask · Tailwind CSS · SQLite
+  </div>
+</div>
+
+  <div
+  className="project-card"
+  style={{
+    padding: '2rem',
+    marginTop: '1rem',
+    marginBottom: '1rem',
+    border: '1px solid rgba(255, 255, 255, 0.25)',
+    borderRadius: '16px',
+    background: 'rgba(255, 255, 255, 0.12)',
+    backdropFilter: 'blur(14px)',
+    WebkitBackdropFilter: 'blur(14px)',
+    boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
+    color: 'white'
+  }}
+>
+  <h3 style={{ marginTop: 0 }}>
+    <strong>Data Professional Survey Dashboard</strong>
+  </h3>
+
+  <div>
+    Developed an interactive Power BI dashboard to analyze career trends
+    from a survey of 600+ data professionals.
+  </div>
+
+  <div
+    style={{
+      marginTop: '1.5rem',
+      fontSize: '0.9rem',
+      color: '#6b7280'
+    }}
+  >
+    Power BI · Power Query · DAX
+  </div>
+
+  <a
+    href="https://github.com/zarakkhancs/data-professional-survey-dashboard"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: 'inline-block',
+      marginTop: '1rem',
+      fontWeight: 500
+    }}
+  >
+    GitHub ↗
+  </a>
+</div>
+
+  <div
+  className="project-card"
+  style={{
+    padding: '2rem',
+    border: '1px solid rgba(255, 255, 255, 0.25)',
+    borderRadius: '16px',
+    background: 'rgba(255, 255, 255, 0.12)',
+    backdropFilter: 'blur(14px)',
+    WebkitBackdropFilter: 'blur(14px)',
+    boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
+    color: 'white'
+  }}
+>
+  <h3 style={{ marginTop: 0 }}>
+    <strong>Huffman Coding CLI</strong>
+  </h3>
+
+  <div>
+    A command-line implementation of Huffman coding focused on file
+    compression and data structures.
+  </div>
+
+  <div
+    style={{
+      marginTop: '1.5rem',
+      fontSize: '0.9rem',
+      color: '#6b7280'
+    }}
+  >
+    Python · Algorithms · Data Structures
+  </div>
+</div>
+
+<div style={{ marginTop: '5rem' }}>
+  <h2
+    id="skills"
+    style={{
+      margin: 0,
+      fontSize: 'clamp(2rem, 4vw, 3rem)',
+      fontWeight: 700,
+      color: 'white',
+      letterSpacing: '-0.02em'
+    }}
+  >
+    Technical Skills
+  </h2>
+</div>
+
+<div
+  style={{
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
+    gap: '1rem',
+    marginTop: '2rem',
+    marginBottom: '5rem'
+  }}
+>
+  <div
+    className="skill-card"
+    style={{
+      padding: '1.75rem',
+      border: '1px solid rgba(255, 255, 255, 0.25)',
+      borderRadius: '16px',
+      background: 'rgba(255, 255, 255, 0.12)',
+      backdropFilter: 'blur(14px)',
+      WebkitBackdropFilter: 'blur(14px)',
+      boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
+      color: 'white'
+    }}
+  >
+    <h3 style={{ marginTop: 0 }}>Languages</h3>
+
+    <div style={{ lineHeight: 1.8 }}>
+      Python · Java · SQL (SQLite) · HTML · JavaScript
+    </div>
+  </div>
+
+  <div
+    className="skill-card"
+    style={{
+      padding: '1.75rem',
+      border: '1px solid rgba(255, 255, 255, 0.25)',
+      borderRadius: '16px',
+      background: 'rgba(255, 255, 255, 0.12)',
+      backdropFilter: 'blur(14px)',
+      WebkitBackdropFilter: 'blur(14px)',
+      boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
+      color: 'white'
+    }}
+  >
+    <h3 style={{ marginTop: 0 }}>Frameworks & Libraries</h3>
+
+    <div style={{ lineHeight: 1.8 }}>
+      React · Flask · Tailwind CSS
+    </div>
+  </div>
+
+  <div
+    className="skill-card"
+    style={{
+      padding: '1.75rem',
+      border: '1px solid rgba(255, 255, 255, 0.25)',
+      borderRadius: '16px',
+      background: 'rgba(255, 255, 255, 0.12)',
+      backdropFilter: 'blur(14px)',
+      WebkitBackdropFilter: 'blur(14px)',
+      boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
+      color: 'white'
+    }}
+  >
+    <h3 style={{ marginTop: 0 }}>Developer Tools & Cloud</h3>
+
+    <div style={{ lineHeight: 1.8 }}>
+      Git · GitHub · Vercel · Azure · Power BI
+    </div>
+  </div>
+
+  <div
+    className="skill-card"
+    style={{
+      padding: '1.75rem',
+      border: '1px solid rgba(255, 255, 255, 0.25)',
+      borderRadius: '16px',
+      background: 'rgba(255, 255, 255, 0.12)',
+      backdropFilter: 'blur(14px)',
+      WebkitBackdropFilter: 'blur(14px)',
+      boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
+      color: 'white'
+    }}
+  >
+    <h3 style={{ marginTop: 0 }}>Certifications</h3>
+
+    <div style={{ lineHeight: 1.8 }}>
+      Microsoft Azure Essentials · HTML for Programmers · Microsoft Copilot:
+      The Art of Prompt Writing · Micro-Certification — Welcome to ServiceNow
+    </div>
+  </div>
+</div>
+
+<h2
+  id="education"
+  style={{
+    margin: 0,
+    fontSize: 'clamp(2rem, 4vw, 3rem)',
+    fontWeight: 700,
+    color: 'white',
+    letterSpacing: '-0.02em'
+  }}
+>
+  Education
+</h2>
+
+<div
+  className="education-card"
+  style={{
+    padding: '2rem',
+    marginTop: '2rem',
+    marginBottom: '5rem',
+    border: '1px solid rgba(255, 255, 255, 0.25)',
+    borderRadius: '16px',
+    background: 'rgba(255, 255, 255, 0.12)',
+    backdropFilter: 'blur(14px)',
+    WebkitBackdropFilter: 'blur(14px)',
+    boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
+    color: 'white'
+  }}
+>
+  <div
+    style={{
+      display: 'flex',
+      justifyContent: 'space-between',
+      alignItems: 'flex-start',
+      gap: '2rem',
+      flexWrap: 'wrap'
+    }}
+  >
+    <div>
+      <h3 style={{ marginTop: 0, marginBottom: '0.5rem' }}>
+        <strong>York University — Lassonde School of Engineering</strong>
+      </h3>
+
+      <div style={{ color: '#6b7280' }}>
+        North York, ON
+      </div>
+    </div>
+
+    <div
+      style={{
+        color: '#6b7280',
+        whiteSpace: 'nowrap'
+      }}
+    >
+      September 2023 – Expected April 2028
+    </div>
+  </div>
+
+  <div style={{ marginTop: '1.5rem' }}>
+    <strong>Bachelor of Science Honours Computer Science</strong>
+  </div>
+
+  <div
+    style={{
+      marginTop: '1rem',
+      lineHeight: 1.7
+    }}
+  >
+    <strong>Relevant Coursework:</strong> Advanced Object-Oriented Programming,
+    Data Structures & Algorithms, Design and Analysis of Algorithms, Database
+    Systems, Software Design
+  </div>
+</div>
+
+<h2
+  id="contact"
+  style={{
+    margin: '0rem',
+    fontSize: 'clamp(2rem, 4vw, 3rem)',
+    fontWeight: 700,
+    color: 'white',
+    letterSpacing: '-0.02em'
+  }}
+>
+  Contact
+</h2>
+
+<div
+  style={{
+    margin: '0rem',
+    textAlign: 'center',
+    padding: '3rem 1rem'
+  }}
+>
+  <div
+    style={{
+      fontSize: '1.15rem',
+      lineHeight: 1.7,
+      maxWidth: '600px',
+      margin: '0 auto'
+    }}
+  >
+    Interested in connecting? Feel free to reach out or check out my work.
+  </div>
+
+  <div
+    style={{
+      padding: '3rem 2rem',
+      marginTop: '2rem',
+      marginBottom: '5rem',
+      border: '1px solid rgba(255, 255, 255, 0.25)',
+      borderRadius: '20px',
+      background: 'rgba(255, 255, 255, 0.12)',
+      backdropFilter: 'blur(14px)',
+      WebkitBackdropFilter: 'blur(14px)',
+      boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
+      color: 'white',
+      textAlign: 'center'
+    }}
+  >
+    <a
+      href="https://github.com/zarakkhancs"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ fontWeight: 500 }}
+    >
+      GitHub ↗
+    </a>
+
+    <a
+      href="https://www.linkedin.com/in/zarak-zk/"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ fontWeight: 500 }}
+    >
+      LinkedIn ↗
+    </a>
+  </div>
+</div>

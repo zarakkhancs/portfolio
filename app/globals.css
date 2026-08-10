@@ -111,3 +111,93 @@ table {
   white-space: nowrap;
   text-align: left;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+h2[id] {
+  scroll-margin-top: 100px;
+}
+
+#contact {
+  scroll-margin-top: 100px;
+}
+
+body {
+  padding-bottom: 6rem;
+}
+
+.project-card {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.skill-card {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+.education-card {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+.experience-card {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+/* Responsive header */
+
+@media (max-width: 700px) {
+  .site-header {
+    padding: 1rem 1.25rem !important;
+  }
+
+  .site-nav {
+    gap: 0.9rem !important;
+  }
+
+  .site-nav a {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .site-header {
+    padding: 0.85rem 1rem !important;
+  }
+
+  .site-nav {
+    gap: 0.55rem !important;
+  }
+
+  .site-nav a {
+    font-size: 0.78rem;
+  }
+}
