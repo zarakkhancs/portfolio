@@ -262,6 +262,7 @@
     color: 'white'
   }}
 >
+  <div>
   <h3 style={{ marginTop: 0 }}>
     <strong>Workout Overload Tracker</strong>
   </h3>
@@ -282,28 +283,37 @@
     React · Python (Flask) · Tailwind CSS · SQLite · Docker
   </div>
 
-  <div style={{ marginTop: '1rem' }}>
+  {/* Side-by-side links */}
+  <div
+    style={{
+      marginTop: '1rem',
+      display: 'flex',
+      alignItems: 'center',
+      gap: '1.5rem'
+    }}
+  >
+    <a
+      href="https://github.com/zarakkhancs/workout-tracker"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        fontWeight: 500,
+        textDecoration: 'none'
+      }}
+    >
+      GitHub ↗
+    </a>
+
     <a
       href="https://workout-tracker-zarak4.vercel.app/"
       target="_blank"
       rel="noopener noreferrer"
       style={{
         fontWeight: 500,
-        marginRight: '1.5rem'
+        textDecoration: 'none'
       }}
     >
       Live Demo ↗
-    </a>
-  
-    <a
-      href="https://github.com/zarakkhancs/workout-tracker"
-      target="_blank"
-      rel="noopener noreferrer"
-      style={{
-        fontWeight: 500
-      }}
-    >
-      GitHub ↗
     </a>
   </div>
 </div>
