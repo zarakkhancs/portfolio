@@ -35,5 +35,5 @@ CREATE TABLE redirects (
 ```
 
 ## 🚀 Live Demo
-Check out my portfolio here: [zarakkhan.com](zarakkhan.com)
+Check out my portfolio here: [zarakkhan.com](www.zarakkhan.com)
 ---
