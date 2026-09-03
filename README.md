@@ -33,3 +33,7 @@ CREATE TABLE redirects (
   permanent BOOLEAN NOT NULL
 );
 ```
+
+## 🚀 Live Demo
+Check out my portfolio here: [zarakkhan.com](zarakkhan.com)
+---
