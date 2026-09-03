@@ -1,39 +1,31 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fleerob%2Fnext-mdx-blog)
+# Zarak Khan — Portfolio
 
-# next-mdx-blog
+My personal portfolio website showcasing my projects, experience, skills, and background as a Computer Science student.
 
-This is a blog template built with:
+## 🚀 Live Portfolio
 
-- **Framework**: [Next.js](https://nextjs.org)
-- **Deployment**: [Vercel](https://vercel.com)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com)
-- **Analytics**: [Vercel Analytics](https://vercel.com/analytics)
-- **Database** (Optional): [Postgres](https://vercel.com/postgres)
+**[zarakkhan.com](https://www.zarakkhan.com)**
 
-## Running Locally
+## 🛠️ Built With
 
-This application requires Node.js v18.17+.
+* **Framework:** [Next.js](https://nextjs.org/)
+* **Language:** TypeScript
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Deployment:** [Vercel](https://vercel.com/)
+
+## 💻 Running Locally
+
+This project requires Node.js 18.17+.
 
 ```bash
-git clone https://github.com/leerob/next-mdx-blog.git
-cd next-mdx-blog
-pnpm install
-pnpm dev
+git clone https://github.com/zarakkhancs/portfolio.git
+cd portfolio
+npm install
+npm run dev
 ```
 
-## Database (Optional)
+Then open http://localhost:3000 in your browser.
 
-Create a `.env.local` file with your `POSTGRES_URL` environment variable to store redirects.
+## 📌 About
 
-```sql
-CREATE TABLE redirects (
-  id SERIAL PRIMARY KEY,
-  source VARCHAR(255) NOT NULL,
-  destination VARCHAR(255) NOT NULL,
-  permanent BOOLEAN NOT NULL
-);
-```
-
-## 🚀 Live Demo
-Check out my portfolio here: [zarakkhan.com](www.zarakkhan.com)
----
+This portfolio is built with Next.js and showcases my software engineering projects, technical skills, and professional experience.
